@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "craft"
+version = "0.1.0"
+description = ""
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32"
+xlsxwriter = "^3.1"
+pydantic = "^2.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
